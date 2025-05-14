@@ -7,18 +7,18 @@ export default function Projects() {
         projects : [
             {
                 image : websiteImg1,
-                description : 'A Ecommerce Website. Built with MERN Stack.',
+                description : 'Here is my github link',
                 link : 'https://github.com/'
             },
             {
                 image : websiteImg2,
-                description : 'Food Ecommerce website like Swiggy, Built with Angular & .Net',
-                link : ''
+                description : 'My leetcode profile',
+                link : 'https://leetcode.com/u/rithish_05/'
             },
             {
                 image : websiteImg3,
-                description : 'Basic Blog website . Built with Next JS and MongoDB',
-                link : ''
+                description : 'My linkedin profile',
+                link : 'https://www.linkedin.com/in/rithish-r-593452330/'
             }
         ]
     }
