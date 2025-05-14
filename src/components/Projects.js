@@ -1,6 +1,6 @@
-import websiteImg1 from '../assets/ecommerce-websites.jpg';
-import websiteImg2 from '../assets/food-ecommerce.jpg';
-import websiteImg3 from '../assets/website-blog.jpg';
+import websiteImg1 from '../assets/github.jpg';
+import websiteImg2 from '../assets/leetcode.jpg';
+import websiteImg3 from '../assets/linkedin.jpg';
 
 export default function Projects() {
     const config = {
