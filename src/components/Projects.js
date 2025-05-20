@@ -18,7 +18,7 @@ export default function Projects() {
             {
                 image: websiteImg3,
                 description: 'My LinkedIn profile',
-                link: 'https://drive.google.com/file/d/1L4NSoMYmuoW9ZX-Se3AJ9VEC-SscZ1LR/view?usp=sharing'
+                link: 'https://www.linkedin.com/in/rithish-r-593452330'
             }
         ]
     };
