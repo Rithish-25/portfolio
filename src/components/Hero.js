@@ -6,8 +6,8 @@ export default function Hero() {
     const config  = {
         subtitle: 'Im a Full-stack developer and Designer',
         social: {
-            facebook: '',
-            instagram: '',
+            facebook: 'https://www.facebook.com/rithish.389720/',
+            instagram: 'https://www.instagram.com/rithish_.25/',
             linkedin: 'https://www.linkedin.com/in/rithish-r-593452330/'
         }
     }
