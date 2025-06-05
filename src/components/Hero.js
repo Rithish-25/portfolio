@@ -1,13 +1,13 @@
 import HeroImg from '../assets/hero.png';
 import RithishImg from '../assets/rithish.jpg';
-import { AiOutlineTwitter, AiOutlineFacebook, AiOutlineLinkedin } from "react-icons/ai";
+import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 
 export default function Hero() {
     const config  = {
         subtitle: 'Im a Full-stack developer and Designer',
         social: {
-            twitter: '',
             facebook: '',
+            instagram: '',
             linkedin: 'https://www.linkedin.com/in/rithish-r-593452330/'
         }
     }
@@ -20,8 +20,8 @@ export default function Hero() {
                     <p className='text-2xl'>{config.subtitle}</p>
                 </h1>
                 <div className='flex py-10'>
-                    <a href={config.social.twitter} className='pr-5 hover:text-white'><AiOutlineTwitter size={40} /></a>
-                    <a href={config.social.facebook} className='pr-5 hover:text-white'><AiOutlineFacebook size={40}/></a>
+                    <a href={config.social.facebook} className='pr-5 hover:text-white'><AiOutlineFacebook size={40} /></a>
+                    <a href={config.social.instagram} className='pr-5 hover:text-white'><AiOutlineInstagram size={40}/></a>
                     <a href={config.social.linkedin} className='hover:text-white'><AiOutlineLinkedin size={40}/></a>
                 </div>
                 {/* Mobile-only BIG profile image */}
