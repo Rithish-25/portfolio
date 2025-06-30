@@ -1,5 +1,5 @@
-import websiteImg1 from '../assets/github.jpg';
-import websiteImg2 from '../assets/leetcode.jpg';
+import websiteImg1 from '../assets/voice.jpg';
+import websiteImg2 from '../assets/cpu.jpg';
 import websiteImg3 from '../assets/linkedin.jpg';
 
 export default function Projects() {
@@ -7,13 +7,13 @@ export default function Projects() {
         projects: [
             {
                 image: websiteImg1,
-                description: 'Here is my GitHub link',
-                link: 'https://github.com/'
+                description: 'Here is AI Voice Generator',
+                link: 'https://rithish-ai.web.app/'
             },
             {
                 image: websiteImg2,
-                description: 'My LeetCode profile',
-                link: 'https://leetcode.com/u/rithish_05/'
+                description: 'Here is CPU Scheduling',
+                link: 'https://cpu-scheduling.onrender.com/'
             },
             {
                 image: websiteImg3,
