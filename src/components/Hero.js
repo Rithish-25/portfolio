@@ -14,7 +14,7 @@ export default function Hero() {
 
     return (
         <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center'>
-            <div className='md:w-1/2 flex flex-col'>
+            <div className='md:w-1/2 flex flex-col md:items-start'>
                 <h1 className=' text-white text-6xl font-hero-font'>
                     Hi, <br/> Im <span className='text-black'>R</span> Rithish
                     <p className='text-2xl'>{config.subtitle}</p>
@@ -24,14 +24,14 @@ export default function Hero() {
                     <a href={config.social.instagram} className='pr-5 hover:text-white'><AiOutlineInstagram size={40}/></a>
                     <a href={config.social.linkedin} className='hover:text-white'><AiOutlineLinkedin size={40}/></a>
                 </div>
-                {/* Mobile-only BIG profile image */}
+            </div>
+            <div className='md:w-1/3 flex justify-center items-center'>
                 <img 
-                    className='block md:hidden w-52 h-52 rounded-full mx-auto mt-5 border-4 border-white shadow-lg' 
+                    className='w-52 h-52 md:w-72 md:h-72 rounded-full mx-auto mt-5 border-4 border-white shadow-lg' 
                     src={RithishImg} 
                     alt="Rithish" 
                 />
             </div>
-            <img className='hidden md:block md:w-1/3' src={HeroImg} alt="Hero Illustration" />
         </section>
     );
 }
