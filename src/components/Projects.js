@@ -1,6 +1,6 @@
 import websiteImg1 from '../assets/voice.jpg';
 import websiteImg2 from '../assets/cpu.jpg';
-import websiteImg3 from '../assets/linkedin.jpg';
+import websiteImg3 from '../assets/netflix.jpg';
 
 export default function Projects() {
     const config = {
@@ -17,8 +17,8 @@ export default function Projects() {
             },
             {
                 image: websiteImg3,
-                description: 'My LinkedIn profile',
-                link: 'https://www.linkedin.com/in/rithish-r-593452330'
+                description: 'Here is Netflix-clone',
+                link: 'https://netflix-clone-93bb1.web.app'
             }
         ]
     };
