@@ -18,7 +18,7 @@ export default function Projects() {
             {
                 image: websiteImg3,
                 description: 'Here is Netflix-clone',
-                link: 'https://netflix-clone-93bb1.web.app'
+                link: 'https://movie-app-b49a2.web.app/'
             }
         ]
     };
