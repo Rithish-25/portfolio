@@ -18,7 +18,7 @@ export default function Projects() {
             {
                 image: websiteImg3,
                 description: 'Here is Netflix-clone',
-                link: 'https://movie-app-b49a2.web.app/'
+                link: 'https://flix-app-05.netlify.app/'
             }
         ]
     };
