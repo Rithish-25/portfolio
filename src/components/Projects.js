@@ -18,7 +18,7 @@ export default function Projects() {
             {
                 image: websiteImg3,
                 description: 'Here is Netflix-clone',
-                link: 'https://flickverse-05.netlify.app/'
+                link: 'https://notflix-84bf.onrender.com'
             }
         ]
     };
