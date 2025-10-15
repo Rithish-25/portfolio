@@ -7,11 +7,13 @@ header ul li{
 }
 
 .bg-primary{
-    background: rgb(85 81 227);
+    background: radial-gradient(1200px 600px at 80% -10%, rgba(99,102,241,0.45), transparent 60%),
+                radial-gradient(1000px 500px at 10% 10%, rgba(56,189,248,0.35), transparent 55%),
+                linear-gradient(180deg, #0b1020 0%, #0a0f1e 60%, #070d1a 100%);
 }
 
 .bg-secondary{
-    background: #2b2d77;
+    background: rgba(15, 23, 42, 0.6);
 }
 .mobile-nav{
     @apply fixed top-10 left-0 bg-gray-800 w-full h-1/4;
@@ -28,4 +30,18 @@ header ul li{
 
 html {
     scroll-behavior: smooth;
+}
+
+/* 3D Canvas container behind content */
+.scene-container {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.glass-panel {
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    background: rgba(255,255,255,0.04);
 }

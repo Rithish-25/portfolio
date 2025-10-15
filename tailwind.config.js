@@ -8,6 +8,14 @@ module.exports = {
       borderColor : {
         'primary' : 'rgb(85 81 227)',
         'secondary' : '#2b2d77',
+      },
+      colors: {
+        primary: {
+          DEFAULT: 'rgb(85 81 227)'
+        },
+        secondary: {
+          DEFAULT: '#2b2d77'
+        }
       }
     },
     fontFamily : {
