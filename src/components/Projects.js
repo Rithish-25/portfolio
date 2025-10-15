@@ -1,4 +1,4 @@
-import websiteImg1 from '../assets/voice.jpg';
+import websiteImg1 from '../assets/ev.jpg';
 import websiteImg2 from '../assets/cpu.jpg';
 import websiteImg3 from '../assets/netflix.jpg';
 import { motion } from 'framer-motion';
@@ -8,8 +8,8 @@ export default function Projects() {
         projects: [
             {
                 image: websiteImg1,
-                description: 'Here is AI Voice Generator',
-                link: 'https://rithish-ai.web.app/'
+                description: 'EV - Station',
+                link: 'https://ev-station-6.onrender.com/'
             },
             {
                 image: websiteImg2,
@@ -19,7 +19,7 @@ export default function Projects() {
             {
                 image: websiteImg3,
                 description: 'Here is Netflix-clone',
-                link: 'https://notflix-84bf.onrender.com'
+                link: 'https://notflix-3-2oa9.onrender.com'
             }
         ]
     };
@@ -29,7 +29,7 @@ export default function Projects() {
             <motion.div className="w-full"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.3 }}
+                viewport={{ once: false, amount: 0.3 }}
                 transition={{ duration: 0.6 }}
             >
                 <div className="flex flex-col px-10 py-5">
@@ -43,7 +43,7 @@ export default function Projects() {
                         <motion.a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="w-full md:w-[38%] lg:w-[32%]"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true, amount: 0.2 }}
+                            viewport={{ once: false, amount: 0.2 }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             whileHover={{ y: -4 }}
                         >

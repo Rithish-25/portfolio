@@ -10,7 +10,7 @@ export default function Resume () {
         <motion.div className='py-5 md:w-1/2 flex justify-center md:justify-end'
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6 }}
         >
             <img className='w-[300px]' src={ResumeImg} alt="Resume"/>
@@ -18,7 +18,7 @@ export default function Resume () {
         <motion.div className='md:w-1/2 flex justify-center'
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6 }}
         >
             <div className='flex flex-col justify-center text-white'>
