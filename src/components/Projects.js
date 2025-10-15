@@ -8,7 +8,7 @@ export default function Projects() {
         projects: [
             {
                 image: websiteImg1,
-                description: 'EV - Station',
+                description: 'Here is EV-Station',
                 link: 'https://ev-station-6.onrender.com/'
             },
             {
