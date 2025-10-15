@@ -37,7 +37,7 @@ export default function Hero() {
                     }}
                 >
                     {[config.social.facebook, config.social.instagram, config.social.linkedin].map((link, i) => (
-                        <motion.a key={link} href={link} className='pr-5 hover:text-white'
+                        <motion.a key={link} href={link} className='pr-5 last:pr-0 text-slate-200 hover:text-white transition-colors duration-200'
                             variants={{ hidden: { opacity: 0, y: 10 }, show: { opacity: 1, y: 0 } }}
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.95 }}
