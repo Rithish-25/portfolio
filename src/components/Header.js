@@ -13,7 +13,7 @@ export default function Header(){
     }, []);
 
     return <header className={`sticky top-0 z-50 ${scrolled ? 'shadow-lg shadow-black/20' : ''}`}>
-        <div className="flex justify-between px-5 py-2 bg-primary/90 backdrop-blur">
+        <div className="flex justify-between px-5 py-2 bg-primary">
             <a className = "font-bold text-sky-400"href="#">Rithish</a>
             <nav className="hidden md:block">
                 <ul className="flex text-white">
@@ -34,7 +34,7 @@ export default function Header(){
                     exit={{ height: 0, opacity: 0 }}
                     className="block md:hidden"
                 >
-                    <ul onClick={() => setToggleMenu(!toggleMenu)} className="flex flex-col text-white mobile-nav">
+                    <ul onClick={() => setToggleMenu(!toggleMenu)} className="flex flex-col text-white mobile-nav bg-primary">
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#projects">Projects</a></li>
