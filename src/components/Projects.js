@@ -1,5 +1,5 @@
 import websiteImg1 from '../assets/ev.jpg';
-import websiteImg2 from '../assets/cpu.jpg';
+import websiteImg2 from '../assets/fashion.jpg';
 import websiteImg3 from '../assets/netflix.jpg';
 import { motion } from 'framer-motion';
 
@@ -13,13 +13,13 @@ export default function Projects() {
             },
             {
                 image: websiteImg2,
-                description: 'Here is CPU Scheduling',
-                link: 'https://cpu-scheduling.onrender.com/'
+                description: 'Here is Fashion-Store',
+                link: 'https://canonball-fashions.onrender.com/'
             },
             {
                 image: websiteImg3,
                 description: 'Here is Netflix-clone',
-                link: 'https://notflix-3-2oa9.onrender.com'
+                link: 'https://notflix-back.onrender.com/'
             }
         ]
     };
